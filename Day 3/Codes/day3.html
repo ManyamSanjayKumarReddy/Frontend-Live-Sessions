@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables and Input Tags</title>
+</head>
+<body>
+
+    <!-- Tables -->
+
+    <!-- 
+        <table>
+            <thead>
+                <tr> used to represnt the row of a cell
+                    <th> used to represent the header data cells
+            <tbody> 
+                <tr> used to represnt the row of a cell
+                    <td> used to represent the data cells
+        
+    -->
+    <h1>Tables Concept</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Roll</th>
+                <th>Attendance</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sanjay</td>
+                <td>4280</td>
+                <td>100%</td>
+            </tr>
+            <tr>
+                <td>Vinay</td>
+                <td>4374</td>
+                <td>100%</td>
+            </tr>
+            <tr>
+                <td>Santosh</td>
+                <td>4284</td>
+                <td>100%</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Input Tags -->
+
+    <h1>Input Tag Concepts</h1>
+
+    <form action="https://website.tws.org.in/teachers.html">
+        <br>
+        <label for="Name">Name :</label>
+        
+             <input type="text" placeholder="Enter your Name" id="Name">
+            <br> <br>
+            <label for="Mail">Email :</label>
+            <input type="email" id="Mail">
+            <br> <br>
+            Contact Number : <input type="number" placeholder="Give your Whatsapp Number" >
+            <br><br>
+            Gender : Male <input type="radio" name="Gender"> Female <input type="radio" name="Gender"> Others <input type="radio" name="Gender"> 
+            <br> <br>
+            Nationality : Indian <input type="checkbox" name="" id="" checked>
+            <br><br>
+            Tell about your self :
+                <br><br>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <br><br>
+
+            DoB : <input type="date" name="" id="">
+                
+            <br><br>
+            Fav Colour : <input type="color" name="" id="">
+            <br><br>
+
+            Exact Time : <input type="datetime-local" name="" id="">
+            <br><br>
+            Upload your Image : <input type="file">
+            <br><br>
+
+            Enter your Password :<input type="password" name="" id="">
+            <br><br>
+            
+            <input type="submit">  <input type="reset" value="Reset">
+    </form>
+
+
+</body>
+</html>
