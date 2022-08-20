@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* Element Selector */
+        p
+        {
+            border: 2px solid cornflowerblue;
+        }        
+        /* ID Selector */
+        #redelement{
+            color: red;
+        }
+        /* ID Selector */
+        #yellowelement{
+            color: yellowgreen;
+        }
+        /* Class Selector */
+        .brownelement{
+            color: brown;
+        }
+        .bgpink
+        {
+            background-color: pink;
+        }
+        footer,span{
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <h3>CSS Selectors</h3>
+    <!-- As in style we have declared for all paragraphs it must be red but if we want only that colour for a single paragraph then we need to use id such that only for that id it will become that colour -->
+    <p id="redelement">This is a simple pearagraph to demonstrate CSS Selectors</p>
+    <p id="yellowelement">This is another simple pearagraph to demonstrate CSS Selectors</p>
+    <div>
+        <p class="brownelement bgpink">This is yet another simple pearagraph to demonstrate CSS Selectors</p>
+        <span>This is span</span>
+    </div>
+    <footer>This is footer</footer>
+</body>
+</html>
